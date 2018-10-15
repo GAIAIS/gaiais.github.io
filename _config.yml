@@ -1,0 +1,128 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: https://allanhao.com
+date_format: "ordinal"
+title: Allan Blog
+subtitle: "坚持积累，积少成多。"
+description: "Allan's Blog"
+keywords: 张浩, Allan, AllanHao
+timezone: Asia/Shanghai
+encoding: "utf-8"
+side_bar_repo_limit: 5
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: Allan
+# organization: allanhao.com
+# organization_url: http://www.zkh360.com
+github_username: allanhao
+location: Beijing, China
+email: allan_hao@163.com
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
+
+  -
+    href: /categories/
+    label: 分类
+
+#   -
+#     href: /archives/
+#     label: 归档
+
+#   -
+#     href: /wiki/
+#     label: 维基
+
+  -
+    href: /links/
+    label: 链接
+
+  -
+    href: /about/
+    label: 关于
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+repository: allanhao/allanhao.github.io
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+# https://disqus.com
+disqus:
+    username: 
+# https://imsun.net/posts/gitment-introduction/
+gitment:
+    owner: AllanHao
+    repo: blog-comments
+    oauth:
+        client_id: fb5215dfbe603403e222
+        client_secret: 5915948517e8fcdfc5cc817cc6fb1c2bdd73d420
+# https://github.com/gitalk/gitalk#install
+gitalk:
+    owner: AllanHao
+    repo: blog-comments
+    clientID: c043049ddc21c955feed
+    clientSecret: ab1abd49473cc8ce2269a802a8e5eb4fc2abb6a1
+# 在使用其它评论组件时可点击显示 Disqus
+lazy_load_disqus : false
+
+# ---------------- #
+#      Search      #
+# ---------------- #
+simple_jekyll_search:
+    # 是否支持全文搜索
+    fulltext: false
+    # 最多显示多少条搜索结果
+    limit: 10
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+google:
+    analytics_id: UA-124826163-1
+
+baidu:
+    analytics_id: 3eabbbc6c4010997fb8d78e128d5b75a
