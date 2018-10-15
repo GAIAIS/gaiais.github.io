@@ -1,0 +1,1933 @@
+
+body {
+    font-family: "Microsoft YaHei";
+}
+
+/*-----------------------1920-----------------1920-------------1920-------------------------------------------*/
+@media (max-width: 2160px) {
+    .navbar-header {
+        float: left;
+        margin-left: -33px;
+    }
+
+    #fixedNav .navbar-nav > li > a {
+        margin-top: 12px;
+        padding: 0 12px;
+        line-height: 39px;
+        height: 39px;
+    }
+
+    .pc_img {
+        height: 740px; /*----------------图片的高度*/
+        width: 100%;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    @media (min-width: 1200px) {
+        .container {
+            width: 1150px;
+        }
+    }
+    @media (max-width: 2160px) {
+        #fixedNav .navbar-toggle {
+            top: 7px;
+        }
+    }
+    .carousel {
+        position: relative;
+    }
+
+    /*轮播箭头部分*/
+    .carousel-control {
+        position: absolute;
+        top: 308px; /*-----------------箭头遮罩定位  宽高 行高*/
+        left: 316px;
+        width: 71px;
+        height: 126px;
+        line-height: 126px;
+        color: #fff;
+        text-align: center;
+        background-color: #000;
+        filter: alpha(opacity=50);
+        opacity: .5;
+        display: none;
+    }
+
+    .carousel-control.right {
+        right: 316px; /*---------------右箭头遮罩定位*/
+        left: auto;
+    }
+
+    .carousel-control img {
+        width: 50px;
+    }
+
+    /*轮播的小圆点*/
+    .carousel-indicators .active {
+        width: 12px; /*-----------------轮播小圆点的宽高  margin*/
+        height: 12px;
+        margin: 1px 9px;
+        background-color: #fff;
+        opacity: 0.7;
+    }
+
+    .carousel-indicators li {
+        display: inline-block;
+        width: 12px; /*-----------------------轮播小圆点的宽高  margin*/
+        height: 12px;
+        margin: 1px 9px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: #242424;
+        border: 0 none;
+        border-radius: 12px;
+    }
+
+    /*-------------------------------------1920--------------导航-----------------*/
+    .container {
+        /*width: 1280px;*/
+        padding-right: -2px;
+        padding-left: 0;
+    }
+
+    .gaia_nav {
+        border: none;
+        margin-bottom: 0;
+        z-index: 10000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        border-radius: 0;
+        position: absolute;
+    }
+
+    .navbar-collapse {
+        padding-right: 0px;
+        padding-left: 0;
+    }
+
+    .gaia_nav .navbar-brand {
+        display: inline-block;
+        color: #777;
+        float: left;
+        padding: 0;
+        margin-top: 42px;
+    }
+
+    .gaia_nav a img {
+        height: 56px;
+        width: 164px;
+    }
+
+    .gaia_nav #container .gaia {
+        /*-------------logo文字的宽高   margin*/
+        width: 222px;
+        height: 32px;
+        font-size: 14px;
+        margin-top: 78px;
+        line-height: 1;
+        margin-left: 12px;
+        color: #fff;
+    }
+
+    .gaia_nav span {
+        display: block;
+        letter-spacing: 4px;
+    }
+
+    .gaia_nav .enGaia {
+        /*-------------logo英文文字的宽高   margin*/
+        font-size: 12px;
+        margin-top: 6px;
+        letter-spacing: 0;
+    }
+
+    .gaia_nav .navbar-brand:hover,
+    .gaia_nav .navbar-brand:focus {
+        background-color: transparent;
+    }
+
+    .gaia_nav .navbar-nav {
+        /*-------------aaa宽高   margin*/
+        height: 110px;
+    }
+
+    .gaia_nav .navbar-nav > li {
+        position: relative;
+    }
+
+    .gaia_nav .navbar-nav > li > a {
+        color: #fff;
+        font-size: 16px; /*--------------------aaa字体大小-  padding  ----*/
+        margin-top: 64px;
+        padding: 0px 19px;
+    }
+
+    .gaia_nav .navbar-nav > li > span {
+        height: 2px;
+        width: 12px;
+        background-color: #93d0ff;
+        margin-top: 5px;
+        position: absolute;
+        left: 50%;
+        margin-left: -6px;
+        display: none;
+    }
+
+    .gaia_nav .navbar-nav > li:hover span {
+        display: block;
+    }
+
+    .gaia_nav .navbar-nav > li > .refer {
+        border: 1px solid #7A7571;
+        border-radius: 22px;
+        margin-top: 53px;
+        padding: 11px 18px;
+    }
+
+    .gaia_nav .navbar-nav > li > .referL {
+        background-color: #757573;
+        margin-right: 26px;
+    }
+
+    .gaia_nav .navbar-nav > li > a:hover {
+        color: #93d0ff;
+    }
+
+    .gaia_nav .navbar-nav > li > .void:hover {
+        color: #fff;
+    }
+
+    .nav > li > a:focus {
+        text-decoration: none;
+        background-color: transparent;
+        outline: none;
+    }
+
+    .gaia_nav .navbar-collapse {
+        border-color: #e7e7e7;
+    }
+
+    .nav > li > a:hover {
+        text-decoration: none;
+        background: rgba(0, 0, 0, 0);
+    }
+
+    #navUl {
+        position: relative;
+    }
+
+    /*-------------------------------- 覆盖？？？---------------*/
+    /*覆盖箭头icon样式*/
+    .glyphicon-chevron-left:before {
+        content: "";
+    }
+
+    .glyphicon-chevron-right:before {
+        content: "";
+    }
+
+    /*覆盖鼠标移动到遮罩上的样式*/
+    .carousel-control:hover, .carousel-control:focus {
+        color: #fff;
+        filter: alpha(opacity=50);
+        opacity: .5;
+    }
+
+    .navbar-toggle {
+        height: 50px;
+        height: 40px;
+        position: relative;
+        top: 50px;
+        right: 50px;
+        background-color: #000;
+        opacity: 0.4;
+    }
+
+    .gaia_nav .navbar-toggle .icon-bar {
+        background-color: #fff;
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+    }
+
+    /*文字主题*/
+    .theme {
+        text-align: center;
+        margin: 0 auto;
+        position: absolute;
+        left: 50%; /*-----------定位--------*/
+        top: 370px;
+        color: #fff;
+        font-family: "Microsoft YaHei";
+        margin-left: -232px; /*-----距离左侧距离-----------*/
+    }
+
+    .theme h1 {
+        font-size: 50px; /*-----字号-----------*/
+        font-weight: bold;
+        letter-spacing: 8px; /*-----文字中间间距-----------*/
+    }
+
+    .theme span {
+        font-size: 27px; /*-----------------字号--------*/
+         letter-spacing: 2px;
+
+    }
+
+    .theme i {
+        font-size: 18px; /*-----------------字号 margin--------*/
+        margin: 0 18px;
+    }
+    .video .videoRight ul{
+        height:100%;
+    }
+      .video .videoRight li {
+        margin-bottom: 10px;
+        height:33.3%;
+    }
+    .video .videoRight img{
+       height:100%;
+       width:100%;
+    }
+}
+
+/*------------------------------------------1600-------1600----------1600---------1600----------------------*/
+@media (max-width: 1600px) {
+    .pc_img {
+        height: 616px;
+    }
+
+    .carousel-control {
+        top: 257px;
+        left: 215px;
+        width: 59px;
+        height: 105px;
+        line-height: 105px;
+    }
+
+    .carousel-control.right {
+        right: 215px;
+    }
+
+    .carousel-control img {
+        width: 40px;
+    }
+
+    .carousel-indicators .active {
+        width: 10px;
+        height: 10px;
+        margin: 1px 8px;
+    }
+
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        margin: 1px 8px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    /*---------------------------------1600--------------------------导航--------------------------*/
+    /*导航条*/
+    .gaia_nav .navbar-nav {
+        margin-left: 14px;
+        float: right;
+    }
+
+    .gaia_nav .navbar-nav > li > a {
+        margin-top: 33px;
+        padding: 18px 14px;
+        line-height: 48px;
+    }
+
+    .gaia_nav .navbar-nav > li > .referL {
+        margin-right: 18px;
+    }
+
+    .gaia_nav .navbar-nav > li > .refer {
+        border: 1px solid #7A7571;
+        border-radius: 25px;
+        margin-top: 49px;
+        padding: 0px 18px;
+    }
+
+    /*主题*/
+    .theme {
+        top: 308px;
+        margin-left: -190px;
+    }
+
+    .theme h1 {
+        font-size: 42px;
+        letter-spacing: 7px;
+    }
+
+    .theme span {
+        font-size: 22px;
+        leter-spacing: 2px;
+    }
+
+    .theme i {
+        font-size: 15px;
+        margin: 0 15px;
+    }
+
+    .gaia_nav .navbar-nav > li > span {
+        margin-top: -20px;
+    }
+}
+
+/*--------------------1280--------------1280------------------1280-----------1280--------------------------*/
+@media (max-width: 1280px) {
+    .navbar-header {
+        margin-left: 0;
+    }
+
+    .gaia_nav .container .gaia {
+        display: none;
+    }
+
+    .pc_img {
+        height: 493px;
+    }
+
+    .carousel-control {
+        top: 205px;
+        left: 211px;
+        width: 47px;
+        height: 84px;
+        line-height: 84px;
+    }
+
+    .carousel-control.right {
+        right: 211px;
+    }
+
+    .carousel-control img {
+        width: 34px;
+    }
+
+    .carousel-indicators .active {
+        width: 8px;
+        height: 8px;
+        margin: 1px 6px;
+    }
+
+    .carousel-indicators li {
+        width: 8px;
+        height: 8px;
+        margin: 1px 6px;
+        border-radius: 8px;
+    }
+
+    /*导航条*/
+    .gaia_nav {
+        font-size: 10px;
+        line-height: 1;
+    }
+
+    .navbar-brand img {
+        width: 55px;
+        height: 60px;
+    }
+
+    .gaia_nav .gaia {
+        margin-top: 69px;
+    }
+
+    .gaia_nav .enGaia {
+        font-size: 10px;
+        margin-top: 6px;
+    }
+
+    .gaia_nav .navbar-nav {
+        float: left;
+    }
+
+    .gaia_nav .navbar-nav > li > a {
+        font-size: 14px;
+        margin-top: 44px;
+        padding: 10px 5px;
+        line-height: 34px;
+    }
+
+    .gaia_nav .navbar-nav > li > .refer {
+        border: 1px solid #7A7571;
+        border-radius: 25px;
+        margin-top: 53px;
+        padding: 0px 16px;
+    }
+
+    .gaia_nav .navbar-nav > li > .referL {
+        margin-right: 0px;
+    }
+
+    #fixedNav .navbar-nav > li > a {
+        padding: 0 5px;
+        font-size: 12px;
+    }
+
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+        margin-left: 15px;
+    }
+
+    .theme {
+        top: 247px;
+        margin-left: -156px;
+    }
+
+    .theme h1 {
+        font-size: 33px;
+        letter-spacing: 5px;
+    }
+
+    .theme span {
+        font-size: 18px;
+        leter-spacing: 2px;
+    }
+
+    .theme i {
+        font-size: 12px;
+        margin: 0 12px;
+    }
+
+    .gaia_nav a img {
+        margin-left: 37px;
+    }
+}
+
+/*01 products*/
+.products {
+    padding-top: 95px;
+    background-color: #FAFAFA;
+    padding-bottom: 92px;
+}
+
+.products .gaia-01 {
+    text-align: center;
+}
+
+.products .gaia-01 .gaia-num {
+    font-size: 77px;
+    font-family: Impact;
+    color: #edecec;
+}
+
+.products .gaia-en {
+    font-size: 50px;
+    font-family: "Microsoft YaHei";
+    color: #222222;
+    margin-left: -37px;
+    text-transform: uppercase;
+}
+
+.products .gaia-wit, .products .gaia-guide {
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    color: #c5c5c5;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 6px;
+}
+
+.products .gaia-wit .gaia-rel {
+    position: relative;
+    margin-left: 8px;
+}
+
+.products .gaia-wit .gaia-reg {
+    position: absolute;
+    margin-left: -3px;
+    margin-top: -5px;
+    font-size: 10px;
+}
+
+.products .gaia-01-con {
+    margin-top: 108px;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.products .gaia-01-con .pro-img img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 46px;
+}
+
+.products .gaia-01-con .gaia-txt {
+    font-size: 20px;
+    color: #000;
+    font-family: 'Microsoft YaHei';
+}
+
+.products .gaia-01-con .gaia-more {
+    margin: 0 auto;
+    display: block;
+    width: 162px;
+    /*height:1px;*/
+    margin-top: 46px;
+}
+
+.products .gaia-01-con .gaia-moreL {
+    background-color: #FAFAFA;
+    border: 1px solid #838856;
+    margin-bottom: 74px;
+}
+
+.products .gaia-01-con .gaia-moreM {
+    background-color: #FAFAFA;
+    border: 1px solid #be717b;
+    margin-bottom: 74px;
+}
+
+.products .gaia-01-con .gaia-moreR {
+    background-color: #FAFAFA;
+    border: 1px solid #5886ce;
+    margin-bottom: 74px;
+}
+
+.products .gaia-01-con .pro-link {
+    text-align: center;
+    font-size: 17px;
+    font-family: "Microsoft YaHei";
+    line-height: 64px;
+    text-decoration: none;
+    cursor: pointer;
+    display: none;
+}
+
+.products .gaia-01-con .pro-linkL {
+    color: #838856;
+}
+
+.products .gaia-01-con .pro-linkM {
+    color: #be717b;
+}
+
+.products .gaia-01-con .pro-linkR {
+    color: #5886ce;
+}
+
+.products .gaia-01-con .gaia-btm {
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #c5c5c5;
+    cursor: pointer;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.products .gaia-01-con .gaia-btm:hover {
+    color: #222;
+}
+
+/*industry*/
+.industry {
+    padding-top: 113px;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+
+.industry .gaia-02 {
+    text-align: center;
+    margin-bottom: 82px;
+}
+
+.industry .gaia-02 .gaia-num {
+    font-size: 77px;
+    font-family: Impact;
+    color: #edecec;
+}
+
+.industry .gaia-02 .gaia-en {
+    font-size: 50px;
+    font-family: "Microsoft YaHei";
+    color: #222222;
+    margin-left: -37px;
+    text-transform: uppercase;
+}
+
+.industry .gaia-wel {
+    padding: 0 99px;
+    margin-bottom: 122px;
+}
+
+.industry .gaia-land {
+    margin-bottom: 92px;
+}
+
+.industry .gaia-icon {
+    height: 100px;
+    float: left;
+}
+
+.industry .gaia-icon span {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+}
+
+.industry .gaia-introduct {
+    cursor: pointer;
+}
+
+.industry .gaia-icon .gaia-icon1 {
+    background: url("../Images/gaia-spirit.png") no-repeat 0 0;
+}
+
+.industry .gaia-icon .gaia-icon2 {
+    background: url("../Images/gaia-spirit.png") no-repeat -72px 0;
+}
+
+.industry .gaia-icon .gaia-icon3 {
+    background: url("../Images/gaia-spirit.png") no-repeat -136px 0;
+}
+
+.industry .gaia-icon .gaia-icon4 {
+    background: url("../Images/gaia-spirit.png") no-repeat -210px 0;
+}
+
+.industry .gaia-icon .gaia-icon5 {
+    background: url("../Images/gaia-spirit.png") no-repeat -284px 0;
+}
+
+.industry .gaia-icon .gaia-icon6 {
+    background: url("../Images/gaia-spirit.png") no-repeat -352px 0;
+}
+
+.industry .gaia-wel .gaia-introduct {
+    margin-left: 71px;
+}
+
+.industry .gaia-wel .gaia-title {
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.industry .gaia-wel .gaia-caption {
+    font-size: 18px;
+    color: #777;
+    line-height: 30px;
+}
+
+/*固定定位导航条*/
+#fixedNav {
+    position: fixed;
+    top: 0px;
+    height: 65px;
+    background-color: #242424;
+    width: 100%;
+    display: none;
+}
+
+/*#fixedNav*/
+#fixedNav .navbar-brand img {
+    width: 164px;
+    height: 56px;
+}
+
+@media (max-width: 2160px) {
+    #fixedNav .navbar-brand {
+        display: inline-block;
+        color: #777;
+        height: 39px;
+        line-height: 65px;
+        width: 37px;
+        float: left;
+        padding: 0;
+        margin-top: 0px;
+    }
+
+    #fixedNav .navbar-nav > li > .line:hover {
+        color: #fff;
+    }
+
+    #fixedNav .navbar-nav .refer {
+        height: 39px;
+        margin-top: 12px;
+        line-height: 39px;
+        border: 0 none;
+    }
+
+    #fixedNav .navbar-nav .referL {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    #fixedNav .navbar-nav .referL:hover {
+        background: #000;
+        opacity: 0.6;
+    }
+}
+
+@media (max-width: 1600px) {
+    #fixedNav .navbar-nav {
+        margin-left: 0;
+    }
+}
+
+/*progects*/
+.progects {
+    line-height: 1;
+    position: relative;
+    background-color: #FAFAFA;
+    padding-top: 130px;
+    padding-bottom: 39px;
+}
+
+.progects .gaia-03 {
+
+    margin-bottom: 72px;
+    float: left;
+}
+
+.progects .gaia-03 .gaia-num {
+    font-size: 77px;
+    font-family: Impact;
+    color: #edecec;
+}
+
+.progects .gaia-03 .gaia-en {
+    font-size: 50px;
+    font-family: "Microsoft YaHei";
+    color: #222222;
+    margin-left: -37px;
+    text-transform: uppercase;
+}
+
+.progects .gaia-introduct {
+    padding-left: 92px;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+@media (max-width: 992px) {
+    .progects .row .imgcenter {
+        padding: 0 160px;
+    }
+}
+
+.progects .gaia-introduct .gaia-title {
+    font-size: 24px;
+    color: #000;
+    font-family: "Microsoft YaHei";
+}
+
+.progects .gaia-introduct .gaia-caption {
+    font-size: 18px;
+    color: #777;
+    line-height: 30px;
+}
+
+.progects .gaia-introduct:hover .gaia-title {
+    color: #5f5f5f;
+}
+
+.progects .gaia-introduct:hover .gaia-caption {
+    color: #b1b1b1;
+}
+
+.progects .row-content {
+    margin-bottom: 22px;
+}
+
+.progects .imgR {
+    position: relative;
+    right: 0;
+    float: right;
+}
+
+@media (max-width: 2160px) {
+    .progects .imgR img {
+        position: absolute;
+        right: 0;
+        bottom: -30px;
+        width: 71%;
+    }
+}
+
+@media (max-width: 1600px) {
+    .progects .imgR img {
+        position: absolute;
+        right: 0;
+        bottom: -30px;
+        width: 77%;
+    }
+}
+
+@media (max-width: 1208px) {
+    .progects .imgR img {
+        position: absolute;
+        right: 0;
+        bottom: 45%;
+        width: 90%;
+    }
+}
+
+.partners {
+    padding-top: 95px;
+    background-color: #fff;
+    padding-bottom: 92px;
+}
+
+.partners .gaia-04 {
+    text-align: center;
+    margin-bottom: 53px;
+}
+
+.partners .gaia-04 .gaia-num {
+    font-size: 77px;
+    font-family: Impact;
+    color: #edecec;
+}
+
+.partners .gaia-en {
+    font-size: 50px;
+    font-family: "Microsoft YaHei";
+    color: #222222;
+    margin-left: -37px;
+    text-transform: uppercase;
+}
+
+.partners .gaia-04-con {
+    padding: 46px 60px 0;
+    text-align: center;
+    cursor: pointer;
+    padding-bottom: 46px;
+}
+
+.partners .gaia-04-con > div {
+    width: 183px;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.partners #gaia-partners-L:hover {
+    box-shadow: 0 0px 40px rgba(0, 0, 0, 0.15);
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition-duration: 0.8s;
+}
+
+.partners #gaia-partners-M {
+    /*transition: box-shadow 0.3s ease-in-out ;*/
+}
+
+.partners #gaia-partners-M:hover {
+    box-shadow: 0 0px 40px rgba(0, 0, 0, 0.15);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+}
+
+.partners #gaia-partners-R:hover {
+    box-shadow: 0 0px 40px rgba(0, 0, 0, 0.15);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+}
+
+.partners #gaia-partners-L div {
+    background: url("../Images/gaia-spirit.png") no-repeat 0 -58px;
+}
+
+.partners #gaia-partners-M div {
+    background: url("../Images/gaia-spirit.png") no-repeat -196px -61px;
+}
+
+.partners #gaia-partners-R div {
+    background: url("../Images/gaia-spirit.png") no-repeat 0 -151px;
+}
+
+.partners .gaia-04-con > h4 {
+    color: #222;
+    font-size: 24px;
+    font-family: "Microsoft YaHei";
+    margin-bottom: 26px;
+}
+
+.partners .gaia-04-con > span {
+    font-size: 18px;
+    color: #949494;
+}
+
+/*news*/
+.news {
+    padding-top: 113px;
+    line-height: 1;
+    background-color: #fafafa;
+}
+
+.news .gaia-05 {
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.news .gaia-05 .gaia-num {
+    font-size: 77px;
+    font-family: Impact;
+    color: #edecec;
+}
+
+.news .gaia-05 .gaia-en {
+    font-size: 50px;
+    font-family: "Microsoft YaHei";
+    color: #222222;
+    margin-left: -37px;
+    text-transform: uppercase;
+}
+
+.news .gaia-05-con {
+    margin-bottom: 120px;
+    padding-right: 0;
+    padding-left: 0;
+    position: relative;
+}
+
+.news .gaia-05-con img {
+    cursor: pointer;
+    width: 100%;
+}
+
+.news .gaia-05-con span {
+    height: 0px;
+    line-height: 68px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: -moz-linear-gradient(linear, 0 0, 0 45%, from(#888), to(#000));
+    background: -webkit-gradient(linear, 0 0, 0 45%, from(#888), to(#000));
+    background: #222222; /* 一些不支持背景渐变的浏览器 */
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/*--------------------viewpoints----------viewpoints--------viewpoints-------------------*/
+.viewpoints {
+    height: 688px;
+    background-color: #111;
+}
+
+/*----------------------footer------------------*/
+.footer {
+    /*height: 638px;*/
+    background: url("../Images/footerBck.png") no-repeat;
+    color: #fff;
+}
+
+.footer .container {
+    padding-bottom: 88px;
+    border-bottom: 1px solid #fff;
+}
+
+.footer dl {
+    float: left;
+    margin-left: 130px;
+}
+
+.footer dl {
+    float: left;
+    margin-left: 0px;
+}
+
+.footer dd {
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.footer dt {
+    margin-bottom: 49px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.footer .footerL dd {
+    margin-bottom: 29px;
+}
+
+.footer .footerL i {
+    height: 30px;
+    width: 26px;
+    display: inline-block;
+    float: left;
+}
+
+.footer .footerL span {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-left: 10px;
+}
+
+.footer .footerL .gaia-site {
+    background: url("../Images/gaia-spirit.png") no-repeat -6px -285px;
+}
+
+.footer .footerL .gaia-tel {
+    background: url("../Images/gaia-spirit.png") no-repeat -66px -282px;
+}
+
+.footer .footerL .gaia-email {
+    background: url("../Images/gaia-spirit.png") no-repeat -157px -284px;
+}
+
+.footer .footerL .gaia-url {
+    background: url("../Images/gaia-spirit.png") no-repeat -239px -286px;
+}
+
+.footer dl dt {
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    margin-top: 75px;
+}
+
+.footer .footerR dt {
+    margin-bottom: 50px;
+}
+
+.footer .footerR dd {
+    margin-bottom: 20px;
+}
+
+.footer dd:hover {
+    color: #93d0ff;
+}
+
+.footer .footerR {
+    position: relative;
+}
+
+.footer .footerR .gaia-QR {
+    position: absolute;
+    right: 40px;
+    bottom: 49px;
+}
+
+.footer .copyRight {
+    background-color: red;
+    font-size: 14px;
+    margin-top: 34px;
+    padding-bottom: 64px;
+    text-align: center;
+    background: url("../Images/footerBck.png") no-repeat;
+    cursor: pointer;
+}
+
+/*小屏幕*/
+@media (max-width: 992px) {
+    .footer .container {
+        padding-bottom: 20px;
+    }
+}
+
+/*视频*/
+@media (max-width: 2160px) {
+    .video .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10 {
+        padding-right: 0px;
+        padding-left: 0;
+    }
+
+    .video .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2 {
+        padding-right: 0px;
+        padding-left: 0;
+    }
+
+    .video {
+        height: 700px;
+        width: 100%;
+        background-color: #000;
+    }
+}
+
+.video .videoOne {
+    height: 100%;
+    position: relative;
+    background: #000 url(../Images/loading.gif) center/300px no-repeat;
+}
+
+.video .videoOne .skip {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+.video video {
+    height: 100%;
+    width: 100%;
+}
+
+.video .videoRight {
+    overflow: hidden;
+    height: 100%;
+}
+
+.video .videoRight li {
+    height: 33.3%;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.video .videoRight li p {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    padding: 0;
+
+}
+
+.video .videoRight li span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Microsoft YaHei';
+    display: none;
+}
+
+.videoRight li:hover p {
+    background: rgba(0, 0, 0, .5);
+}
+
+.video .videoRight li:hover span {
+    display: block;
+}
+
+/*视频播放条*/
+.video .controls {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(16, 16, 16);
+    border-radius: 4px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 99;
+    opacity: 1;
+}
+
+.video .player:hover .controls {
+    opacity: 1;
+}
+
+/*播放/暂停*/
+.video .controls .switch {
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    color: #FFF;
+    position: absolute;
+    top: 11px;
+    left: 11px;
+}
+
+.video .controls .switch:focus {
+    outline: none;
+    -moz-outline: none;
+}
+
+.video .controls .switch:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+/*全屏按钮*/
+.video .controls .expand {
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    color: #FFF;
+    position: absolute;
+    right: 11px;
+    top: 11px;
+}
+
+/*进度条*/
+.video .progress {
+    width: 80%;
+    height: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #555;
+    cursor: pointer;
+    position: absolute;
+    top: 16px;
+    left: 45px;
+}
+
+/*下载进度*/
+.video .progress .loaded {
+    width: 0;
+    height: 100%;
+    background-color: #999;
+}
+
+/*播放进度*/
+.video .progress .line {
+    width: 0;
+    height: 100%;
+    background-color: #FFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.video .progress .bar {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000000;
+}
+
+/*时间*/
+.video .timer {
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    right: 3%;
+    top: 11px;
+    color: #FFF;
+    font-size: 14px;
+}
+
+/*--------------------768-------最大屏768   768---------------------768------------------------768------------------------*/
+@media (max-width: 768px) {
+    .pc_img {
+        height: 308px;
+    }
+
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+        margin-left: 80px;
+    }
+
+    .carousel-control {
+        top: 123px;
+        left: 37px;
+        width: 28px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .carousel-control.right {
+        right: 37px;
+    }
+
+    .carousel-control img {
+        width: 26px;
+    }
+
+    .carousel-indicators .active {
+        width: 5px;
+        height: 5px;
+        margin: 1px 4px;
+    }
+
+    .carousel-indicators li {
+        width: 5px;
+        height: 5px;
+        margin: 1px 4px;
+        border-radius: 5px;
+    }
+
+    /*导航条*/
+    .gaia_nav .navbar-nav > li {
+        width: 100%;
+    }
+
+    .gaia_nav .navbar-nav > li > .line {
+        display: none;
+    }
+
+    .gaia_nav .navbar-nav > li > a:hover {
+        color: #93d0ff;
+        font-size: 16px;
+    }
+
+    .gaia_nav .navbar-collapse {
+        border-color: #e7e7e7;
+        height: 360px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .nav > li > a:hover {
+        text-decoration: none;
+        background: #000;
+        opacity: 0.6;
+    }
+
+    .theme {
+        top: 154px;
+        margin-left: -107px;
+    }
+
+    .theme h1 {
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+
+    .theme span {
+        font-size: 11px;
+        leter-spacing: 2px;
+    }
+
+    .theme i {
+        font-size: 12px;
+        margin: 0 8px;
+    }
+
+    .footer .container {
+        padding-bottom: 0px;
+    }
+
+    .footer .copyRight {
+        margin-top: 30px;
+    }
+
+    .footer dl {
+        margin-bottom: 0;
+        float: none;
+        text-align: center;
+    }
+
+    .footer dl dt {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .footer .footerR dt {
+        margin-bottom: 30px;
+    }
+
+    .footer .footerL dd {
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .footer .footerL i {
+        float: none;
+    }
+
+    .footer .footerL span {
+        float: none;
+    }
+
+    .gaia_nav .navbar-toggle {
+        position: absolute;
+        right: 0;
+    }
+
+    .products {
+        padding-top: 37px;
+        padding-bottom: 50px;
+    }
+
+    .products .gaia-num {
+        font-size: 65px;
+    }
+
+    .products .gaia-en {
+        font-size: 37px;
+    }
+
+    .products .gaia-wit, .products .gaia-guide {
+        font-size: 18px;
+        letter-spacing: 2px;
+        margin-top: 0px;
+    }
+
+    .products .gaia-01-con {
+        margin-top: 50px;
+    }
+
+    .products .gaia-01-con .pro-img img {
+        margin-bottom: 30px;
+    }
+
+    .products .gaia-01-con .gaia-moreM {
+        margin-bottom: 0px;
+    }
+
+    .products .gaia-01-con .gaia-btm {
+        margin-top: 46px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .products .gaia-01-con .gaia-moreR {
+        margin-bottom: 0;
+    }
+
+    .products .gaia-01-con .gaia-moreL {
+        margin-bottom: 0;
+    }
+
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+        margin-left: 0px;
+    }
+
+    .industry {
+        padding-top: 37px;
+        margin-bottom: 0;
+    }
+
+    .industry .gaia-02 .gaia-num {
+        font-size: 65px;
+    }
+
+    .industry .gaia-02 .gaia-en {
+        font-size: 37px;
+    }
+
+    .industry .gaia-02 {
+        margin-bottom: 50px;
+    }
+
+    .industry .gaia-wel {
+        padding: 0 60px;
+        margin-bottom: 50px;
+    }
+
+    .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .industry .gaia-wel .gaia-title {
+        font-size: 18px;
+    }
+
+    .industry .gaia-wel .gaia-caption {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .progects {
+        padding-top: 37px;
+        padding-bottom: 22px;
+    }
+
+    .progects .gaia-03 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .progects .gaia-03 .gaia-num {
+        font-size: 65px;
+    }
+
+    .progects .gaia-03 .gaia-en {
+        font-size: 37px;
+    }
+
+    .progects .row .imgcenter {
+        padding: 0 60px;
+    }
+
+    .progects .gaia-introduct .gaia-title {
+        font-size: 18px;
+    }
+
+    .progects .gaia-introduct .gaia-caption {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .progects .row .imgcenter {
+        margin-bottom: 20px;
+    }
+
+    .progects .row-content {
+        margin-bottom: 0;
+    }
+
+    .partners {
+        padding-top: 37px;
+        padding-bottom: 16px;
+    }
+
+    .partners .gaia-04 .gaia-num {
+        font-size: 65px;
+    }
+
+    .partners .gaia-en {
+        font-size: 37px;
+    }
+
+    .partners .gaia-04 {
+        margin-bottom: 50px;
+    }
+
+    .partners .gaia-04-con {
+        padding: 0px 60px 0;
+        text-align: center;
+        cursor: pointer;
+        padding-bottom: 37px;
+    }
+
+    .partners .gaia-04-con > h4 {
+        font-size: 18px;
+        margin-bottom: 14px;
+    }
+
+    .partners .gaia-04-con > div {
+        margin-bottom: 24px;
+    }
+
+    .partners .gaia-04-con > span {
+        font-size: 14px;
+    }
+
+    .news {
+        padding-top: 37px;
+        padding-bottom: 37px;
+    }
+
+    .news .gaia-05 .gaia-num {
+        font-size: 65px;
+    }
+
+    .news .gaia-05 .gaia-en {
+        font-size: 37px;
+    }
+
+    .news .gaia-05 {
+        margin-bottom: 50px;
+    }
+
+    .news .gaia-05-con {
+        margin-bottom: 22px;
+    }
+
+    .news .gaia-05-con {
+        margin-left: 10%;
+    }
+
+    .news .gaia-05-con img {
+        width: 80%;
+    }
+
+    .news .gaia-05-con span {
+        width: 80%;
+        height: 50px;
+        line-height: 50px;
+        margin-right: 10%;
+        font-size: 16px;
+    }
+
+    .video {
+        height: 188px;
+        background-color: #000;
+    }
+
+    .video .timer {
+        font-size: 12px;
+        right: 10%;
+    }
+
+    .video .progress {
+        width: 30%;
+    }
+
+    .video .controls {
+        background-color: rgba(16, 16, 16, .3);
+    }
+    .video .videoRight ul{
+        height:100%;
+    }
+    .video .videoRight li {
+        margin-bottom: 10px;
+        height:33.3%;
+    }
+    .video .videoRight img{
+       height:100%;
+       width:100%;
+    }
+
+    .video .videoOne .skip img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .video .videoOne .skip {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -15px;
+        margin-top: -15px;
+    }
+
+    .footer dl dt {
+        margin-top: 37px;
+        margin-bottom: 5px;
+    }
+
+    .footer .footerR {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .footer .footerR dl dt {
+        margin-top: 12px;
+
+    }
+
+    .footer .footerR dd {
+        margin-bottom: 10px;
+        float: left;
+        width: 50%;
+        text-align: left;
+        padding-left: 12%;
+    }
+
+    .footer .footerR .gaia-BJ {
+        width: 100%;
+    }
+
+    .footer .copyRight {
+        padding-bottom: 37px;
+    }
+
+    #fixedNav .navbar-collapse {
+        height: 379px;
+    }
+
+    #fixedNav .navbar-nav > li > a {
+        margin-top: 2px;
+        font-size: 12px;
+    }
+
+    #fixedNav .navbar-nav .refer {
+        margin-top: 2px;
+    }
+
+    #fixedNav .navbar-collapse {
+        width: 33%;
+        float: right;
+    }
+
+    #fixedNav .navbar-collapse {
+        background-color: transparent;
+        margin-top: -11px;
+        border: 0 none;
+    }
+
+    #fixedNav .navbar-toggle {
+        background-color: rgba(126, 125, 123, 0.3);
+    }
+
+    #fixedNav .navbar-header {
+        margin-left: 12px;
+        margin-top: 10px;
+    }
+
+    #fixedNav .navbar-brand {
+        margin-top: 12px;
+    }
+
+    .navbar-toggle {
+        margin-top: 7px;
+        padding: 6px 10px;
+    }
+
+    #fixedNav .navbar-brand img {
+        margin-top: -60px;
+    }
+
+    .gaia_nav .navbar-brand {
+        margin-top: 10px;
+    }
+
+    .gaia_nav .row {
+        margin-right: -15px;
+    }
+
+    .gaia_nav .navbar-header {
+        margin-left: 30px;
+    }
+
+    .gaia_nav .navbar-toggle {
+        top: 10px;
+    }
+
+    .gaia_nav .navbar-collapse {
+        border: 0 none;
+    }
+
+    .gaia_nav .navbar-collapse {
+        width: 33%;
+        background-color: none;
+        margin-top: 55px;
+
+    }
+
+    .gaia_nav .navbar-nav > li > a {
+        color: #fff;
+        font-size: 12px;
+        display: block;
+        width: 89%;
+        height: 37px;
+        line-height: 37px;
+        margin-top: 2px;
+        padding: 0;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .gaia_nav .navbar-nav > li > .refer {
+        border: 1px solid #7A7571;
+        border-radius: 0;
+        margin-top: 2px;
+        padding: 0px 16px;
+    }
+
+    .gaia_nav .navbar-nav > li > .void {
+        display: none;
+
+    }
+
+    .gaia_nav .navbar-nav {
+        height: 0;
+        width: 100%;
+        margin-top: -2px;
+    }
+
+    .gaia_nav .navbar-nav > li > a:hover {
+        color: #93d0ff;
+        font-size: 12px;
+    }
+
+    .gaia_nav .navbar-toggle {
+        cursor: pointer;
+    }
+
+    .carousel-control {
+        display: block;
+    }
+
+    .container {
+        overflow: hidden;
+    }
+    .video .videoRight ul{
+        height:100%;
+
+
+    }
+    .video .videoRight li span {
+        font-size: 12px;
+    }
+
+    .video .controls .expand {
+        display: block;
+        width: 17px;
+        height: 6px;
+        font-size: 15px;
+        right: 7px;
+        top: 14px;
+    }
+
+    .footer dl dt {
+        margin-bottom: 30px;
+    }
+
+    .footer .footerL .gaia-Beijing {
+        margin-bottom: 28px;
+    }
+
+    .footer .footerL .gaia-Beijing span {
+        line-height: 20px;
+        margin-top: 0px;
+    }
+
+    .footer .footerL .gaia-Beijing i {
+        margin-top: 5px;
+    }
+
+    .footer .footerL i {
+        float: left;
+        margin-right: 0px;
+        width: 16%;
+        display: inline-block;
+    }
+
+    .footer .footerL span {
+        float: left;
+
+        width: 70%;
+        display: inline-block;
+        margin-left: 0;
+    }
+
+    .footer .footerL dd {
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: left;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    #fixedNav {
+        height: 50px;
+    }
+
+    #fixedNav .navbar-brand img {
+        width: 116px;
+        height: 40px;
+    }
+
+    .navbar-brand img {
+        width: 116px;
+        height: 40px;
+    }
+
+    .navbar-toggle {
+        height: 30px;
+    }
+
+    .gaia_nav a img {
+        margin-left: 0;
+    }
+}
