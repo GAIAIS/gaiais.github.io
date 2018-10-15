@@ -2,12 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://allanhao.com
+url: https://gaia.asia
 date_format: "ordinal"
-title: Allan Blog
-subtitle: "坚持积累，积少成多。"
-description: "Allan's Blog"
-keywords: 张浩, Allan, AllanHao
+title: GAIA
+subtitle: "北京嘉楼信息技术有限公司"
+description: ""
+keywords: GAIA,北京嘉楼信息技术有限公司
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -15,12 +15,12 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Allan
-# organization: allanhao.com
+author: GAIA
+organization: gaia.asia
 # organization_url: http://www.zkh360.com
-github_username: allanhao
+github_username: gaiais
 location: Beijing, China
-email: allan_hao@163.com
+email: hao.zhang@iwehave.com
 
 # ---------------- #
 #    Navigation    #
