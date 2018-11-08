@@ -109,6 +109,13 @@
 		box-sizing: border-box;
 	}
 
+	.model2 .swipermodel1 .swiper-wrapper .swiper-slide.swiper-slide-active{ 
+		box-shadow:0 0 20px rgba(0, 0, 0, .5);
+		-webkit-box-shadow:0 0 20px rgba(0, 0, 0, .5);  
+22       -moz-box-shadow:0 0 20px rgba(0, 0, 0, .5);  
+23       box-shadow:0 0 20px rgba(0, 0, 0, .5); 
+	}
+
 	.model2 .swipermodel1 .swiper-wrapper .swiper-slide p{ 
 		float: left;
 		font-size:16px;
@@ -130,17 +137,18 @@
 		margin-top:20px;
 	}
 
-	.model2 .swipermodel1 .swiper-button-next, 
-	.model2 .swipermodel1 .swiper-button-prev {
+	.model2 .swiper-button-next, 
+	.model2 .swiper-button-prev {
 		position: absolute;
-		top:125%;
+		top:auto;
+		bottom:25px;
 		width: 42px;
 		height: 16px;
 		margin-top: 10px;
 		background-size: 42px 16px;
 	}
 
-	.model2 .swipermodel1 .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+	.model2 .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
 		background-image: url("./../images/web/left.png") !important;
     	left: 14% !important;
 	}
@@ -207,6 +215,10 @@
 		font-size:16px;
 		color:#626f8e;
 		background-color:#d7ebfe;
+		box-shadow:0 0 20px rgba(215, 235, 254, .9);
+		-webkit-box-shadow:0 0 20px rgba(215, 235, 254, .9);  
+22       -moz-box-shadow:0 0 20px rgba(215, 235, 254, .9);  
+23       box-shadow:0 0 20px rgba(215, 235, 254, .9); 
 	}
 
 	.swipermodel2 .swiper-wrapper .swiper-slide>div.content>span{ 
