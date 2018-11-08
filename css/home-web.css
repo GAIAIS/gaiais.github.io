@@ -224,8 +224,9 @@
 		width:100%;
 		min-width: 1160px;
 		box-sizing: border-box;
-		height:320px;
+		overflow: hidden;
 		margin-bottom:200px;
+		position: relative;
 	}
 
 	.model4 .model4-item .model4-item-left label{
@@ -249,102 +250,23 @@
 	}
 
 	.model4 .model4-item .model4-item-left{
-		margin-top:100px;
-		height:320px;
-		overflow: hidden;
+		position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        overflow: hidden;
 	}
 
 	.model4 .model4-item .model4-item-left.fl{
-		margin-left:100px;
-		box-sizing: border-box;
+		left:100px;
 	}
 
 	.model4 .model4-item .model4-item-left.fr{
-		margin-right:100px;
-		box-sizing: border-box;
+		right:100px;
 	}
 
 	.model4-item-right{
-		height:320px;
+		width:58%;
 	}
-
-
-
-	/* .model4 .model4-item.right{
-		width:100%;
-		min-width: 1160px;
-		padding:0px 100px;
-		box-sizing: border-box;
-		height:320px;
-		margin-bottom:200px;
-		background-image: url("./../images/web/model4/right-bg.png");
-		background-repeat: no-repeat;
-		background-size:731px 320px;
-		background-position: right top;
-	}
-
-	.model4 .model4-item.left{
-		width:100%;
-		min-width: 1160px;
-		padding:0px 100px;
-		box-sizing: border-box;
-		height:320px;
-		margin-bottom:200px;
-		background-image: url("./../images/web/model4/left-bg.png");
-		background-repeat: no-repeat;
-		background-size:673px 320px;
-		background-position: left top;
-	}
-
-	.model4 .model4-item .model4-item-left label{
-		font-size:34px;
-		line-height:1.2;
-		font-weight: 600;
-		margin-bottom: 30px;
-		display: block;
-	}
-
-	.model4 .model4-item .model4-item-left p{
-		font-size:16px;
-		color:#626f8e;
-		margin-bottom: 12px;
-	}
-
-	.model4 .model4-item .model4-item-left .bold{
-		font-size:18px;
-		margin-bottom: 30px;
-		font-weight: 600;
-	}
-
-	.model4 .model4-item .model4-item-left{
-		float:left;
-		height:320px;
-		overflow: hidden;
-	}
-
-	.model4 .model4-item .model4-item-right{
-		float:right;
-		height:320px;
-		overflow: hidden;
-	}
-
-	.model4 .model4-item .model4-item-right .viewbox{
-		display: block;
-		width:auto;
-		height:250px;
-		float: right;
-	}
-
-	.model4 .model4-item .model4-item-right .icon{
-		width:auto;
-		height:50px;
-		float: right;
-		margin-right:15px;
-		
-	} */
-
-
-
 
 
 	/* .model4 .model4-item{
